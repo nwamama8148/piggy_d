@@ -10,7 +10,7 @@ class SplashScreen extends StatelessWidget {
     // double screenHeight = screenSize.height;
     // double screenWidth = screenSize.width;
 
-    return SafeArea(
+    return const SafeArea(
       child: Scaffold(
         body: Text('data'),
       ),

@@ -74,6 +74,19 @@ flutter:
     - assets/images/male.png
     - assets/images/female.png
     - assets/images/img_two.png
+    - assets/images/Group.png
+    - assets/images/Plus.png
+    - assets/images/Minus.png
+    - assets/images/p1.png
+    - assets/images/p2.png
+    - assets/images/p3.png
+    - assets/images/p4.png
+    - assets/images/p5.png
+    - assets/images/p6.png
+    - assets/images/p7.png
+    - assets/images/p8.png
+    - assets/images/p9.png
+    - assets/images/check.png
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

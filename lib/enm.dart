@@ -43,7 +43,7 @@ class _EnmState extends State<Enm> {
 
   @override
   Widget build(BuildContext context) {
-    final bottomPadding = MediaQuery.of(context).viewInsets.bottom;
+    // final bottomPadding = MediaQuery.of(context).viewInsets.bottom;
     Size screenSize = MediaQuery.of(context).size;
     double screenHeight = screenSize.height;
     double screenWidth = screenSize.width;
@@ -62,7 +62,7 @@ class _EnmState extends State<Enm> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   // color: Colors.red,
                   height: screenHeight * 0.4,
                   child: Center(
@@ -161,7 +161,7 @@ class _EnmState extends State<Enm> {
                           BorderRadius.circular(10), // Custom border radius
                     ),
                     minimumSize: Size(screenWidth * 0.9, screenHeight * 0.084),
-                    backgroundColor: Color(0xFFFC795B),
+                    backgroundColor: const Color(0xFFFC795B),
                   ),
                   onPressed: () {
                     Navigator.push(

@@ -104,8 +104,8 @@ class OnboardingScreen extends StatelessWidget {
             ),
             const Padding(
               padding:
-                  const EdgeInsets.symmetric(horizontal: 49.0, vertical: 26),
-              child: const Text(
+                  EdgeInsets.symmetric(horizontal: 49.0, vertical: 26),
+              child: Text(
                 textAlign: TextAlign.center,
                 ''' Set tasks to incentivize Desired behavior in kids''',
                 style: TextStyle(
@@ -121,7 +121,7 @@ class OnboardingScreen extends StatelessWidget {
                       BorderRadius.circular(10), // Custom border radius
                 ),
                 minimumSize: Size(screenWidth * 0.83, screenHeight * 0.08),
-                backgroundColor: Color(0xFFFC795B),
+                backgroundColor: const Color(0xFFFC795B),
               ),
               onPressed: () {
                 Navigator.push(
@@ -138,7 +138,7 @@ class OnboardingScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             const Text.rich(TextSpan(
                 text: 'Already have an account? ',
                 style: TextStyle(

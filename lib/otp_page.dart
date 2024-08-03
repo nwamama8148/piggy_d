@@ -13,15 +13,15 @@ class OtpPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Verify Phone'),
+          title: const Text('Verify Phone'),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 18.0),
+            padding: const EdgeInsets.symmetric(horizontal: 18.0),
             child: Column(
               children: [
-                Container(
+                SizedBox(
                   // color: Colors.red,
                   height: screenHeight * 0.4,
                   child: Center(
@@ -133,7 +133,7 @@ class OtpPage extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: 5),
+                const SizedBox(height: 5),
                 const Text.rich(
                   TextSpan(
                     text: ''' Didn't receive code yet?''',
@@ -152,7 +152,7 @@ class OtpPage extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
@@ -161,7 +161,7 @@ class OtpPage extends StatelessWidget {
                           BorderRadius.circular(10), // Custom border radius
                     ),
                     minimumSize: Size(screenWidth * 0.9, screenHeight * 0.084),
-                    backgroundColor: Color(0xFFFC795B),
+                    backgroundColor: const Color(0xFFFC795B),
                   ),
                   onPressed: () {
                     Navigator.push(
